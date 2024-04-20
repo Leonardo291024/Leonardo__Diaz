@@ -10,6 +10,7 @@ header{
 
 .inactive{
     display: none;
+    animation-duration: 2s;
 }
 
 .container-nav{
@@ -40,7 +41,7 @@ header{
 }
 
 .nav-mobile{
-    position: absolute;
+    position: fixed;
     height: 90vh;
     max-width: 420px;
     top: 0;
@@ -52,6 +53,32 @@ header{
     border-radius: 10px;
     padding: 20px;
     border: 1px solid black;
+
+    animation: 4s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes top_bottom{
+    from{
+        height: 40vh;
+        left: 0;
+    }
+
+    to{
+        height: 90vh;
+    }
+}
+
+
+@keyframes moverIzquierda{
+    from{
+        width: 80%;
+    }
+
+    to{
+        width: 0;
+    }
 }
 
 .nav-mobile .containerLogoCerrar{
