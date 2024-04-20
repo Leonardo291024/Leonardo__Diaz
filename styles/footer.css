@@ -1,0 +1,29 @@
+footer{
+    background: var(--color_negro);
+    padding: 20px;
+}
+
+.titulo-footer{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-redes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-redes a img{
+    width: 30px;
+}
+
+@media(min-width: 720px){
+    .container-redes{
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .container-redes a img{
+        width: 50px;
+    }
+}

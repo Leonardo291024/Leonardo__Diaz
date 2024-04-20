@@ -1,0 +1,28 @@
+.acerca-de-mi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.acerca-de-mi div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton-contacto{
+    width: 230px;
+    height: 55px;
+    font-size: 25px;
+    background: var(--color_secondary);
+    border-radius: 20px;
+    color: var(--color_negro);
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

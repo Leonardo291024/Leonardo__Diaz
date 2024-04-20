@@ -1,0 +1,42 @@
+.proyectos{
+    margin-top: 120px;
+    padding: 20px;
+}
+
+.container-proyectos{
+    margin-top: 30px;
+}
+
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.proyecto img{
+    width: 100%;
+}
+
+.texto-proyectos{
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.descripcion-proyectos{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media(min-width: 720px){
+    .proyectos{
+        padding: 80px;
+    }
+    .proyecto{
+        flex-direction: row;
+    }
+    .proyecto img{
+        width: 50%;
+    }
+}

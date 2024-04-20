@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/generales.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/animaciones.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/banner.css">
+    <link rel="stylesheet" href="./styles/acercaDeMi.css">
+    <link rel="stylesheet" href="./styles/skills.css">
+    <link rel="stylesheet" href="./styles/proyectos.css">
+    <link rel="stylesheet" href="./styles/contacto.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="icon" type="image/png" href="./imgs/icons/icono-code.png" style="width: 10px;">
+    <title>Leo_Dev</title>
+</head>
+<body>
+    <header>
+        <div class="container-nav">
+            <h1 class="logo-principal">Leonardo Diaz</h1>
+            <nav class="nav-desktop">
+                <a href="#">Hogar</a>
+                <a href="#acercaDeMi">Acerca de</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <div class="container-icon-ham">
+                <img src="./imgs/icons/menu-hamburgesa-azul.png" alt="menu hamburgesa" class="icon-menu">
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <div class="nav-mobile inactive">
+        <div class="containerLogoCerrar">
+            <img src="./imgs/icons/material-symbols_close.png" alt="logo de cerrar" class="logo-cerrar">
+        </div>
+        <ul>
+            <li>
+                <a href="#">Hogar</a>
+            </li>
+            <li>
+                <a href="#acercaDeMi">Acerca de</a>
+            </li>
+            <li>
+                <a href="#proyectos">Proyectos</a>
+            </li>
+            <li>
+                <a href="#contacto">Contacto</a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="banner">
+        <div class="banner-container">
+            <h1 class="titulos typing">
+                Hola, soy Leonardo Diaz
+            </h1>
+            <p class="texto-banner">
+                Creador de paginas web especializado en el FrontEnd.
+            </p>
+            <a href="#proyectos" class="boton-proyects btn-animado">Proyectos</a>
+        </div>
+    </section>
+
+    <main>
+        <section class="acerca-de-mi" id="acercaDeMi">
+            <div>
+                <h1 class="titulos">Acerca de Mi</h1>
+                <p class="textos">
+                    Bienvenido a mi portafolio web. Soy un apacionado desarrollador FrontEnd que esta constantemente explorando y expandiendo sus conocimientos en el facinante mundo de la programacion web.
+                </p>
+                <a href="#conyacto" class="boton-contacto btn-animado">Contacto</a>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h1 class="titulos">Mis Habilidades</h1>
+            <div class="container-skills">
+                <article class="skill">HTML</article>
+                <article class="skill">CSS</article>
+                <article class="skill">JavaScript</article>
+                <article class="skill">Figma</article>
+                <article class="skill">Git</article>
+                <article class="skill">Git Hub</article>
+            </div>
+        </section>
+
+        <section class="proyectos" id="proyectos">
+            <h1 class="titulos">Proyectos</h1>
+            <p class="textos texto-proyectos">
+                Aqui encontraras algunos de mis proyectos personales que cree. Cada proyecto cuenta con su caso de estudio.
+            </p>
+            <section class="container-proyectos">
+                <div class="proyecto">
+                    <img src="./imgs/imgs-proyects/appeperia.png" alt="">
+                    <div>
+                        <h2 class="subtitulos">Appeperia</h2>
+                        <p class="descripcion-proyectos">
+                            pagina web estatica. Practica del curso de Alura Latam/FrontEnd/Grupo5
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./imgs/imgs-proyects/batatabit.png" alt="">
+                    <div>
+                        <h2 class="subtitulos">BatataBit</h2>
+                        <p class="descripcion-proyectos">
+                            Proyecto de la escuela de desarrollo web del curso de responsive designe
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./imgs/imgs-proyects/calculadora-propinas.png" alt="">
+                    <div>
+                        <h2 class="subtitulos">Calculadora de Propinas</h2>
+                        <p class="descripcion-proyectos">
+                            Este es un desafio creado gracias a los desafios de Frontend Mentor. El cual consiste es probar mis habilidades con CSS, HTML JavaScript. Este desafío se centra principalmente en Calcular la propina correcta y el coste total de la factura por persona.Tambien podras ver el comportamiento del sitio en distintos dispositivos ya que es un diseño responsive
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./imgs/imgs-proyects/calculadora.png" alt="">
+                    <div>
+                        <h2 class="subtitulos">Calculadora</h2>
+                        <p class="descripcion-proyectos">
+                            Este proyecto consiste en una calculadora basica programada con JavaScript asi como tambien el uso de HTML y CSS.
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./imgs/imgs-proyects/encriptador-texto.png" alt="">
+                    <div>
+                        <h2 class="subtitulos">Encriptador de Textos</h2>
+                        <p class="descripcion-proyectos">
+                            Esta es una aplicacion donde podras encriptar mensajes y los podras intercanviar con otras personas que sepan el secreto de la encriptacion utilizada.
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./imgs/imgs-proyects/huddle.png" alt="">
+                    <div>
+                        <h2 class="subtitulos">Huddle</h2>
+                        <p class="descripcion-proyectos">
+                            Primer proyecto de una Landing page de Huddle hecha con Tailwind css.
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./imgs/imgs-proyects/landingPage-uber.png" alt="">
+                    <div>
+                        <h2 class="subtitulos">Landing page de UBER</h2>
+                        <p class="descripcion-proyectos">
+                            En este proyecto elabore la copia de la landing page de uber para fines parcticos con tecnologias como HTML y CSS. Consitio en realizar el diseño casi exacto de la web original.
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./imgs/imgs-proyects/pingPong.png" alt="">
+                    <div>
+                        <h2 class="subtitulos">Ping Pong Game</h2>
+                        <p class="descripcion-proyectos">
+                            En este proyecto elabore la copia de la landing page de uber para fines parcticos con tecnologias como HTML y CSS. Consitio en realizar el diseño casi exacto de la web original.
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./imgs/imgs-proyects/sueldoBruto.png" alt="">
+                    <div>
+                        <h2 class="subtitulos">Calculadora de sueldo Bruto</h2>
+                        <p class="descripcion-proyectos">
+                            Bienvenido a este sitio para obtener el salario neto de un empleado a partir de el salario bruto Este proyecto es realizado con base a los temas vistos en el curso de Platzi de la escuela de Desarrollo web (Taller de matematicas y estadistica basica con javascript) donde se vieron temas como traducir formulas matematicas a codigo JS y tambien la manipulacion de objetos y arrays.
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./imgs/imgs-proyects/todoList.png" alt="">
+                    <div>
+                        <h2 class="subtitulos">ToDo List</h2>
+                        <p class="descripcion-proyectos">
+                            Agrega tareas automaticamente con la opcion de poder borrar una ves que una de las tareas la hayas completado.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <h1 class="titulos">Contacto</h1>
+            <p class="textos">
+                No dudes en ponerte en contacto conmigo enviando el siguiente Formulario y me comunicare con usted lo antes posible.
+            </p>
+            <form action="" class="form">
+                <label for="">Nombre</label>
+                <input type="text">
+
+                <label for="">Correo Electronico</label>
+                <input type="email">
+
+                <label for="">Mensaje</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h1 class="titulos titulo-footer">Redes Sociales</h1>
+        <nav class="container-redes">
+            <a href="https://github.com/Leonardo291024" target="_blank">
+                <img src="./imgs/icons/mdi_github.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/kraken_cod3/" target="_blank">
+                <img src="./imgs/icons/mdi_instagram.png" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/marcos-leonardo-d%C3%ADaz-guzm%C3%A1n-9aa970215/" target="_blank">
+                <img src="./imgs/icons/mdi_linkedin.png" alt="">
+            </a>
+        </nav>
+    </footer>
+
+    <script src="./main/menu.js"></script>
+</body>
+</html>

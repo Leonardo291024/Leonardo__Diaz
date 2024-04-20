@@ -1,0 +1,120 @@
+header{
+    position: fixed;
+    padding: 10px 18px;
+    display: flex;
+    justify-content: center;
+    background: #0093E9;
+    width: 100%;
+    align-items: center;
+}
+
+.inactive{
+    display: none;
+}
+
+.container-nav{
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.logo-principal{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.container-icon-ham{
+    display: block;
+}
+
+.container-icon-ham img{
+    width: 40px;
+}
+
+.nav-desktop{
+    display: none;
+}
+
+.nav-mobile{
+    position: absolute;
+    height: 90vh;
+    max-width: 420px;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 80%;
+    list-style: none;
+    background-color: var(--color_secondary);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.nav-mobile .containerLogoCerrar{
+    text-align: end;
+}
+
+.nav-mobile ul{
+    display: flex;
+    height: 95%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-mobile ul li{
+    list-style: none;
+}
+
+.nav-mobile ul li a{
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--color_negro);
+}
+
+
+@media(min-width: 925px){
+    .logo-principal{
+        font-size: 28px;
+    }
+
+    .container-icon-ham{
+        display: none;
+    }
+
+    .nav-desktop{
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-mobile{
+        display: none;
+    }
+
+    .nav-desktop a{
+        text-decoration: none;
+        font-size: 18px;
+        margin-left: 25px;
+        font-weight: 700;
+        color: var(--color_negro);
+        transition: all 0.8s;
+    }
+
+    .nav-desktop a:hover{
+        padding: 10px;
+        background-color: var(--color_secondary);
+        border-radius: 20px;
+    }
+
+    .nav-desktop a:nth-child(1){
+        padding: 10px;
+        background-color: var(--color_secondary);
+        border-radius: 20px;
+    }
+}

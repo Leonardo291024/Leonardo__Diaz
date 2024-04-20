@@ -1,0 +1,14 @@
+.typing{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: typing 4s steps(40);
+}
+
+@keyframes typing{
+    from{
+        overflow: hidden;
+        width: 0;
+    }
+    to{ width: 100%; }
+}
