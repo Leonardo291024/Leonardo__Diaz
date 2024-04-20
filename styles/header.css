@@ -16,11 +16,11 @@ header{
     padding: 10px;
     background-color: white;
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: space-between;
     border-radius: 30px;
     align-items: center;
-}
+}  
 
 .logo-principal{
     font-size: 20px;
