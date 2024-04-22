@@ -1,5 +1,5 @@
 .banner{
-    height: 90vh;
+    height: 100vh;
     background: linear-gradient(to bottom, #0093E9, #80D0C7);
     display: flex;
     align-items: center;
@@ -7,14 +7,15 @@
 }
 
 .banner-container{
-    height: 50vh;
+    height: 70%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
 }
 
 .texto-banner{
-    width: 80%;
+    width: 100%;
     text-align: center;
     margin: auto;
     font-size: 26px;

@@ -10,14 +10,14 @@ body{
 
 .titulos{
     font-size: 23px;
-    width: 80%;
+    width: 100%;
     text-align: center;
     margin: auto;
 }
 
 .subtitulos{
     font-size: 30px;
-    width: 80%;
+    width: 100%;
     text-align: center;
     margin: auto;
     padding: 10px 10px;
