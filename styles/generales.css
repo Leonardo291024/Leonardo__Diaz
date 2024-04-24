@@ -13,6 +13,7 @@ body{
     width: 100%;
     text-align: center;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 .subtitulos{
@@ -28,7 +29,7 @@ body{
     text-align: start;
     margin: auto;
     font-size: 20px;
-    margin: 20px 20px;
+    margin-bottom: 40px;
 }
 
 .btn-animado{
