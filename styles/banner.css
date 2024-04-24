@@ -15,6 +15,10 @@
     padding: 10px;
 }
 
+.titulo-banner{
+    font-size: 24px;
+}
+
 .texto-banner{
     width: 100%;
     text-align: center;
