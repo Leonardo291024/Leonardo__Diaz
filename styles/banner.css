@@ -1,6 +1,6 @@
 .banner{
     height: 100vh;
-    background: linear-gradient(to bottom, #0093E9, #80D0C7);
+    /*background: linear-gradient(to bottom, #0093E9, #80D0C7);*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,6 +8,7 @@
 
 .banner-container{
     /*height: 70%;*/
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
