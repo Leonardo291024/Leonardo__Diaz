@@ -52,10 +52,9 @@ main{
     padding-top: 20px;
 }
 
-.container-cards-proyects article .container-card-butons button{
+.container-cards-proyects article .container-card-butons a{
     background: var(--color_primary);
-    width: 100px;
-    height: 40px;
+    text-decoration: none;
     border: none;
     border-radius: 8px;
     color: white;
@@ -65,7 +64,7 @@ main{
     transition: all 1s;
 }
 
-.container-cards-proyects article .container-card-butons button:hover{
+.container-cards-proyects article .container-card-butons a:hover{
     background: var(--color_secondary);
     color: black;
 }
