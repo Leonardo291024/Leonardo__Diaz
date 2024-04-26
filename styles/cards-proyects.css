@@ -22,29 +22,38 @@ main{
 }
 
 .container-cards-proyects article{
-    padding: 10px;
-    background: var(--color_secondary);
+    padding: 30px 15px 30px 15px;
+    background: var(--color_negro);
     width: 80%;
     margin: auto;
     border-radius: 8px;
 }
 
 .container-cards-proyects article div p, .title-card{
-    color: var(--color_negro);
-    margin: 10px 10px;
+    color: white;
+    padding-top: 20px;
 }
 
-.container-cards-proyects article img{
+.container-cards-proyects article .image-proyecto{
     width: 100%;
+}
+
+.container-cards-proyects .container-herramientas{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
 }
 
 .container-cards-proyects article .container-card-butons{
     display: flex;
     gap: 15px;
+    padding-top: 20px;
 }
 
 .container-cards-proyects article .container-card-butons button{
-    background: var(--color_negro_claro);
+    background: var(--color_primary);
     width: 100px;
     height: 40px;
     border: none;
@@ -57,7 +66,7 @@ main{
 }
 
 .container-cards-proyects article .container-card-butons button:hover{
-    background: var(--color_primary);
+    background: var(--color_secondary);
     color: black;
 }
 
