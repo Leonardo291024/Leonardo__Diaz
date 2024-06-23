@@ -26,3 +26,7 @@
     align-items: center;
     text-decoration: none;
 }
+
+.boton-contacto:hover{
+    background: var(--color_primary);
+}

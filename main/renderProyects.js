@@ -22,64 +22,47 @@ const contenedorDeCards = document.querySelector('.container-cards-proyects');
 function renderProyects(arr){
     for(proyect of arr){
         const containerProyect = document.createElement('article');
-
-        const imageProyect = document.createElement('img');
-        imageProyect.classList.add('image-proyecto')
-        imageProyect.setAttribute('src', proyect.image);
-
-        const contenedorHerramientas = document.createElement('div');
-        contenedorHerramientas.classList.add('container-herramientas');
-
-        const iconHtml = document.createElement('img');
-        iconHtml.setAttribute('src', proyect.iconHTML);
-        const iconCss = document.createElement('img');
-        iconCss.setAttribute('src', proyect.iconCss);
-        const iconJs = document.createElement('img');
-        iconJs.setAttribute('src', proyect.iconJs);
-
-        const containerTitleDescrip = document.createElement('div');
-
-        const tema = document.createElement('h1');
-        tema.classList.add('title-card');
-        tema.textContent = proyect.name;
-
-        const descripcion = document.createElement('p');
-        descripcion.textContent = proyect.descripcion;
-
-        const containerButtons = document.createElement('div');
-        containerButtons.classList.add('container-card-butons');
-
-        const btnRepositorio = document.createElement('a');
-        btnRepositorio.setAttribute('href', proyect.repositorio);
-        btnRepositorio.innerText = "Repositorio"
-
-        const btnWeb = document.createElement('a');
-        btnWeb.setAttribute('href', proyect.sitioWeb);
-        btnWeb.innerText = "Sitio Web"
-
-
-
-
-
+        containerProyect.classList.add('card')
+        //containerProyect.style.width = '16rem'
         contenedorDeCards.appendChild(containerProyect);
 
+        const imageProyect = document.createElement('img');
+        imageProyect.classList.add('card-img-top')
+        imageProyect.setAttribute('src', proyect.image);
         containerProyect.appendChild(imageProyect);
 
-        containerProyect.appendChild(contenedorHerramientas);
+        const containerCardBody = document.createElement('div');
+        containerCardBody.classList.add('card-body');
+        containerProyect.appendChild(containerCardBody);
 
-        contenedorHerramientas.appendChild(iconHtml);
-        contenedorHerramientas.appendChild(iconCss);
-        contenedorHerramientas.appendChild(iconJs);
+        const titleProyect = document.createElement('h5');
+        titleProyect.classList.add('card-title')
+        titleProyect.textContent = proyect.name;
+        containerCardBody.appendChild(titleProyect);
+    
+        const containerIcons = document.createElement('div');
+        containerIcons.classList.add('card-icons');
+        containerCardBody.appendChild(containerIcons);
 
-        containerProyect.appendChild(containerTitleDescrip);
+        const iconHtml = document.createElement('i');
+        iconHtml.classList.add('bi-filetype-html');
+        containerIcons.appendChild(iconHtml);
 
-        containerTitleDescrip.appendChild(tema);
-        containerTitleDescrip.appendChild(descripcion);
+        const iconCss = document.createElement('i');
+        iconCss.classList.add('bi-filetype-css');
+        containerIcons.appendChild(iconCss);
 
-        containerProyect.appendChild(containerButtons);
+        const iconJs = document.createElement('i');
+        iconJs.classList.add('bi-filetype-js');
+        containerIcons.appendChild(iconJs);
 
-        containerButtons.appendChild(btnRepositorio);
-        containerButtons.appendChild(btnWeb);
+        const btnPrimary = document.createElement('a');
+        btnPrimary.setAttribute('href', proyect.repositorio);
+        btnPrimary.target = '_blank';
+        btnPrimary.classList.add('btn', 'btn-primary');
+        btnPrimary.innerText = "Go Proyect";
+        console.log(btnPrimary);
+        containerCardBody.appendChild(btnPrimary);
     }
 }
 

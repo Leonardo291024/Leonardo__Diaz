@@ -13,17 +13,18 @@ footer{
     justify-content: space-around;
 }
 
-.container-redes a img{
-    width: 30px;
+.container-redes a i{
+    font-size: 2.5rem;
+   color: white;
+}
+
+.container-redes a i:hover{
+    color: var(--color_secondary);
 }
 
 @media(min-width: 720px){
     .container-redes{
         justify-content: flex-start;
         gap: 20px;
-    }
-
-    .container-redes a img{
-        width: 50px;
     }
 }

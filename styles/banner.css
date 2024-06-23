@@ -31,7 +31,7 @@
     width: 230px;
     height: 55px;
     font-size: 25px;
-    background: var(--color_negro_claro);
+    background: var(--color_negro);
     border-radius: 20px;
     color: white;
     font-weight: 700;
@@ -40,6 +40,10 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+}
+
+.boton-proyects:hover{
+    background-color: var(--color_negro_claro);
 }
 
 

@@ -14,6 +14,7 @@ body{
     text-align: center;
     margin: auto;
     margin-bottom: 40px;
+    color: var(--color_negro);
 }
 
 .subtitulos{
@@ -31,15 +32,6 @@ body{
     font-size: 20px;
     margin-bottom: 40px;
 }
-
-.btn-animado{
-    transition: all 1s;
-}
-
-.btn-animado:hover{
-    scale: 1.2;
-}
-
 
 @media(min-width: 720px){
     .titulos{
