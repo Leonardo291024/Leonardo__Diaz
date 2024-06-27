@@ -1,5 +1,13 @@
 const listProyectos = [];
 listProyectos.push({
+    image: './imgs/imgs-proyects/tesla-landing.png',
+    name: "Landing de Tesla",
+    descripcion: "",
+    repositorio: 'https://github.com/Leonardo291024/landing-page-Tesla',
+    sitioWeb: 'https://leonardo291024.github.io/landing-page-Tesla/',
+});
+
+listProyectos.push({
     image: './imgs/imgs-proyects/appeperia.png',
     name: "Appeperia",
     descripcion: "pagina web estatica. Practica del curso de Alura Latam/FrontEnd/Grupo5",

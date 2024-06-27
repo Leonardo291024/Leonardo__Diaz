@@ -9,6 +9,21 @@ header{
     align-items: center;
 }
 
+.btn-darck{
+    border: none;
+    background-color: white;
+}
+
+.bi-moon-stars-fill{
+    font-size: 1.8rem;
+    color: var(--color_secondary);
+    cursor: pointer;
+}
+
+.bi-moon-stars-fill:hover{
+    color: var(--color_negro);
+}
+
 .inactive{
     display: none;
     animation-duration: 2s;
@@ -60,6 +75,20 @@ header{
     animation-delay: 0s;
     animation-fill-mode: forwards;
 }
+
+.nav-mobile .btn-darck{
+    background-color: var(--color_secondary);
+}
+
+.nav-mobile .btn-darck .bi-moon-stars-fill{
+    color: white;
+}
+
+.nav-mobile .btn-darck .bi-moon-stars-fill:hover{
+    color: black;
+}
+
+
 
 @keyframes top_bottom{
     from{
@@ -120,6 +149,7 @@ header{
     .nav-desktop{
         display: flex;
         align-items: center;
+        gap: 20px;
     }
 
     .nav-mobile{
@@ -128,15 +158,14 @@ header{
 
     .nav-desktop a{
         text-decoration: none;
-        font-size: 18px;
-        margin-left: 25px;
+        padding: 10px;
+        font-size: 1.3rem;
         font-weight: 700;
         color: var(--color_negro);
         transition: all 0.8s;
     }
 
     .nav-desktop a:hover{
-        padding: 10px;
         background-color: var(--color_secondary);
         border-radius: 20px;
     }
