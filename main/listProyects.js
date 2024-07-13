@@ -1,4 +1,13 @@
 const listProyectos = [];
+
+listProyectos.push({
+    image: './imgs/imgs-proyects/calculadora-hipoteca.png',
+    name: "Calculadora de Hipotecas",
+    descripcion: "",
+    repositorio: 'https://github.com/Leonardo291024/Frontend_Mentor/tree/main/25-calculadora-de-hipoteca',
+    sitioWeb: 'https://leonardo291024.github.io/Frontend_Mentor/25-calculadora-de-hipoteca',
+});
+
 listProyectos.push({
     image: './imgs/imgs-proyects/tesla-landing.png',
     name: "Landing de Tesla",
