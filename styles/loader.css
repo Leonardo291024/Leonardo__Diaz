@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(14, 167, 223, 1); /* Color de fondo semi-transparente */
+    background-color: rgb(223, 14, 52); /* Color de fondo semi-transparente */
     display: flex;
     justify-content: center;
     align-items: center;
